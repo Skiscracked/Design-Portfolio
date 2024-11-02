@@ -2618,6 +2618,11 @@ input, select, textarea {
 			top: 0.75rem;
 		}
 
+		.image.projectpics {
+			height: 700px;
+			width: 600px;
+		}
+
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
@@ -4687,4 +4692,16 @@ input, select, textarea {
 			visibility: visible;
 		}
 
+	}
+
+/* Containers */
+	.projectpics.container{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+
+/* Captions */
+	.image.captions{
+		font-size: 12px;
 	}
