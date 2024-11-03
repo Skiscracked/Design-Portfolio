@@ -87,13 +87,44 @@
 										</li>
 									</ul>
 
-									<p>This assignment laid the groundwork for memory management, a critical component of the XM23p emulator​.</p>
+									<p>The following are designs which aided my implementation of the software:</p>
 									<div class="projectpics container">
-									<img class="image projectpics" src="images/CompArchFlowChart.jpg" alt="CPU Emulator Flowchart" />
-									<p class="image captions">Flowchart for the main function</p>
+									<img style="width: 500px; height: 250px;" src="images/Assignment1datadic.png" alt="Data dictionary for S-Record">
+									<p class="image captions">Data dictionary for S-Record</p>
+									<img class="assignment1-flow" src="images/Assignment1flow.png" alt="S-Record Design Flowchart">
+									<p class="image captions">S-Record Design Flowchart</p>
 									</div>
+
+									<p>This assignment laid the groundwork for memory management, a critical component of the XM23p emulator​.</p>
+
+									<h3 style="margin-top: 50px;">Assignment 2: Implementing the Pipeline and Register Operations</h3>
+									<p>
+										Next, the pipeline architecture of the XM23p was introduced, and I implemented a basic 3-stage pipeline (Fetch, Decode, Execute) for handling register-to-register operations. 
+										The pipelining reduced the cycle time for non-memory instructions, improving performance from four to two clock cycles per instruction.
+									</p>
+									<p style="margin-bottom: 10px;">Key implementation details:</p>
+									<ul>
+										<li>
+											<strong>Pipeline Stages</strong>: The Fetch stage was split into two sub-stages, while Decode and Execute were straightforward. 
+											Instructions such as ADD, SUB, AND, OR, and XOR were supported.
+										</li>
+										<li>
+											<strong>Register File</strong>: The emulator implemented a register file with a flexible, orthogonal instruction set that operated on any register, 
+											including special registers like the Program Counter (PC).
+										</li>
+									</ul>
+									<p>The following are designs which aided my implementation of the software:</p>
+									<div class="projectpics container">
+										<img style="width: 550px; height: 410px;" src="images/Assignment2datadic.png" alt="Data dictionary for Pipeline">
+										<p class="image captions">Data dictionary for Pipeline</p>
+										<img class="assignment1-flow" src="images/Assignment2flow.png" alt="Pipeline Design Flowchart">
+										<p class="image captions">Pipeline Design Flowchart</p>
+									</div>
+									<p>This phase significantly optimized instruction throughput, providing a 
+										foundation for future enhancements such as memory access and branching​.
+									</p>
 									
-									<!--I need to create a class to customize project pictures and I need to create a class for the captions-->
+									<!--I need to duplicate what I have for the other 3 assignments-->
 									<header>
 										<h2>Heading with a Subtitle</h2>
 										<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
