@@ -2623,17 +2623,19 @@ input, select, textarea {
 			width: 600px;
 		}
 
-		.about_me
+		.Aboutme
 		{
 			width: 700px; 
 			height: 900px;
+			margin-bottom: 10px;
 		}
 
 		@media screen and (max-width: 836px) {
-			.about_me
+			.Aboutme
 			{
-				width: 300px;
-				height: 800px;
+				width: 100%;
+				height: auto;
+				margin-bottom: 10px;
 			}
 		}
 
