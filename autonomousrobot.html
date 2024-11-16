@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+
+<!-- This source file contains information about projects -->
+<html>
+	<head>
+		<title>Semilore Kayode - Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+                <header id="header">
+                    <p class="logo">Semilore Kayode</p>
+                </header>
+
+				<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">Overview</a></li>
+						<li><a href="https://skiscracked.github.io/Sk's Resume (CE) ~v1.pdf" target="_blank">Resume</a></li>
+						<li><a href="aboutme.html">About me</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href= "https://www.linkedin.com/in/semilore-kayode" class="icon brands alt fa-linkedin-in" target="_blank">
+							<span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/Skiscracked" class="icon brands fa-github" target="_blank">
+							<span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h1>Autonomous Robot</h1>
+								</header>
+
+								<!-- Text stuff -->
+									<h2>Overview</h2>
+									<p>
+                                        As part of a team project for the ECED 3901 course at Dalhousie University, I led the development of an autonomous robot designed to navigate a spice field, 
+                                        avoid obstacles, and collect items under strict competition conditions. The robot successfully demonstrated key principles of robotic design, mapping, and autonomous navigation.
+									</p>
+									
+									<h2>Project Goals</h2> 
+
+                                    <ul>
+										<li>
+                                            <strong>Autonomous Navigation</strong>: Enable the robot to efficiently navigate a dynamic environment using waypoints and avoid obstacles.
+										</li>
+										<li>
+											<strong>Item Collection</strong>: Implement a reliable system for detecting and collecting "spices" using optical signaling patterns.
+										</li>
+                                        <li>
+                                            <strong>Competition Readiness:</strong> Ensure compliance with size, voltage, and safety constraints while meeting competition requirements.
+                                        </li>
+									</ul>
+
+                                    <h2>My Role and Contributions</h2> 
+                                    <ul>
+										<li>
+                                            <strong>Project Leadership</strong>:
+                                            <ul>
+                                                <li>Led the integration of various subsystems and ensured seamless functionality.</li>
+                                                <li>Organized team efforts, assigned tasks, and tracked progress using a Gantt chart.</li>
+                                            </ul>
+										</li>
+										<li>
+											<strong>Launch File Development</strong>:
+                                            <ul>
+                                                <li>Designed and implemented ROS2 launch files to initialize all robot nodes.</li>
+                                                <li>Configured the Nav2 library, AMCL (Adaptive Monte Carlo Localization), waypoint follower, and competition start nodes.</li>
+                                                <li>Ensured the system subscribed to relevant topics for communication.</li>
+                                            </ul>
+										</li>
+                                        <li>
+                                            <strong>Waypoint Navigation and Mapping</strong>:
+                                            <ul>
+                                                <li>Created YAML files to define waypoints, including parameters like coordinates, headings, and timeout settings.</li>
+                                                <li>Integrated LiDAR and IMU sensors with the navigation system for accurate localization and obstacle avoidance.</li>
+                                                <li>Employed the SMAC2D planner to optimize paths dynamically, adapting to obstacles in real time.</li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <strong>Obstacle Avoidance</strong>:
+                                            <ul>
+                                                <li>Configured algorithms to detect and respond to "worm" obstacles using LiDAR data.</li>
+                                                <li>Fine-tuned avoidance strategies to minimize delays and maximize competition performance.</li>
+                                            </ul>
+                                        </li>
+									</ul>
+
+                                    <h2>Technical Highlights</h2>
+                                    <ul>
+                                        <li>
+                                            <strong>Tools & Technologies</strong>: ROS2, LiDAR, IMU, Arduino Nano, Python, C++, YAML, and Beelink Mini PC.
+                                        </li>
+                                        <li>
+                                            <strong>Sensors & Actuators</strong>: Integrated LiDAR for mapping, IMU for orientation, and bright LED strips for item collection detection.
+                                        </li>
+                                        <li>
+                                            <strong>Budget Efficiency</strong>: Completed the project using only $80 of the $300 budget, demonstrating effective resource management.
+                                        </li>
+                                    </ul>
+
+                                    <h2>Challenges & Solutions</h2>
+                                    <ul>
+                                        <li>
+                                            <strong>Startup Issues</strong>: Encountered inconsistent startup behaviors during competition rounds. Resolved through improved launch file sequencing and systematic testing.
+                                        </li>
+                                        <li>
+                                            <strong>Dynamic Obstacle Navigation</strong>: Adapted navigation algorithms to handle unexpected movements of "worm" obstacles.
+                                        </li>
+                                        <li>
+                                            <strong>Integration Testing</strong>: Conducted rigorous verification tests for all subsystems to ensure reliability and seamless performance.
+                                        </li>
+                                    </ul>
+
+									<h2>Results</h2>
+                                    <ul>
+                                        <li>Achieved the second-highest score for item collection in the competition.</li>
+                                        <li>Demonstrated the ability to autonomously navigate the field, avoid obstacles, and complete tasks within the allotted time.</li>
+                                        <li>Garnered valuable lessons for improving startup reliability and dynamic responsiveness in future iterations.</li>
+                                    </ul>
+
+                                    <h2>Media & Resources</h2>
+                                    <ul>
+                                        <li><strong>Images & Videos</strong>: A link to the robot in action - </li>
+                                        <li><strong>Code Respository</strong>: Respository access available upon request.</li>
+                                        <li><strong>Technical Documentation</strong>:</li>
+                                    </ul>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+	</body>
+</html>
